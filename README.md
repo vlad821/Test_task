@@ -19,7 +19,7 @@ flutter run
 ```  
 ## Screenshots
 
-![123](https://github.com/vlad821/Test_task/assets/115928876/76031d97-7cb7-4ba0-873b-a2ea08f344c1)
+https://github.com/vlad821/Test_task/assets/115928876/76031d97-7cb7-4ba0-873b-a2ea08f344c1
 
 ![123](https://github.com/vlad821/Test_task/assets/115928876/3a5c302a-4e49-4ae2-9797-533dbadd1a75)
 
