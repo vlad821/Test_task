@@ -19,7 +19,7 @@ Widget buildBottomNavigationBar() {
         ),
         BottomNavigationBarItem(
           icon: Icon(
-            CupertinoIcons.person_fill,
+            CupertinoIcons.person_solid,
           ),
           label: 'Особисті дані',
         ),
