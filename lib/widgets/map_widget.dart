@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/services/location_service.dart';
@@ -62,16 +63,11 @@ class _MapScreenState extends State<MapScreen> {
                           const SizedBox(
                             height: 20,
                           ),
-                          ClipRRect(
-                            borderRadius: BorderRadius.circular(40.0),
-                            child: Image.asset(
-                              'assets/images/df.png',
-                              height: 60,
-
-                              width: 60,
-                              //   width: double.infinity,
-                              fit: BoxFit.cover,
-                            ),
+                          Image.asset(
+                            'assets/images/no_reception.png',
+                            height: 60,
+                            width: 60,
+                            fit: BoxFit.cover,
                           ),
 
                           const SizedBox(height: 10),
@@ -164,10 +160,12 @@ class _MapScreenState extends State<MapScreen> {
                       point: myPosition!,
                       builder: (context) {
                         return const Icon(
-                          Icons.location_history,
-                          color: Color(0xFF0CBA70),
-                          size: 40,
+                          CupertinoIcons.smallcircle_fill_circle,
+                           color: Color(0xFF0CBA70),
+                          size: 20,
                         );
+                       
+                
                       },
                     ),
                   ],
