@@ -1,3 +1,17 @@
+buildscript {
+    ext.kotlin_version = '1.9.22'
+    repositories {
+        google()
+        jcenter()
+    }
+
+    dependencies {
+        classpath 'com.android.tools.build:gradle:4.2.2'
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.22" // Uncomment and set to the latest version
+
+        // ... other dependencies if needed
+    }
+}
 plugins {
     id "com.android.application"
     id "kotlin-android"
@@ -64,4 +78,9 @@ flutter {
     source '../..'
 }
 
-dependencies {}
+dependencies {
+ //   implementation 'com.baseflow:geolocator:11.0.0' // Use the latest version
+ //   classpath 'com.android.tools.build:gradle:4.2.2'
+
+
+}
